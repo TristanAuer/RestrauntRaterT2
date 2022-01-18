@@ -105,3 +105,4 @@ C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\Restra
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.csproj.CopyComplete
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.dll
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.pdb
+C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.csproj.AssemblyReference.cache
