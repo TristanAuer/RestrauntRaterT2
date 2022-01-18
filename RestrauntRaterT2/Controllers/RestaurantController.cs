@@ -55,7 +55,7 @@ namespace RestrauntRaterT2.Controllers
             }
             return View(restaurant);
         }
-        // Post: Restaurant/De;ete/{id}
+        // Post: Restaurant/Delete/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id)
@@ -64,6 +64,41 @@ namespace RestrauntRaterT2.Controllers
             _db.Restaurants.Remove(restaurant);
             _db.SaveChanges();
             return RedirectToAction("Index");
+        }
+        //GET: Restaurant/Edit/{id}
+        //get an id from the user
+        //Handle if the id is null
+        //find a restaurant by that id
+        //if the restaurant doesn't exist
+        //return the restauratn and the view
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(System.Net.HttpStatusCode.BadRequest);
+            }
+            Restaurant restaurant = _db.Restaurants.Find(id);
+            if (restaurant == null)
+            {
+                return new HttpStatusCodeResult(System.Net.HttpStatusCode.NotFound);
+
+            }
+            return View(restaurant);
+        }
+
+        //Post: Restaurant/Edit/{id}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit( Restaurant restaurant)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Entry(restaurant).State = System.Data.Entity.EntityState.Modified;
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+
+            }
+            return View(restaurant);
         }
     }
 }

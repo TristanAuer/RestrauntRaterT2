@@ -101,7 +101,6 @@ C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\bin\Microsoft.Ow
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.csproj.AssemblyReference.cache
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.csproj.CoreCompileInputs.cache
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.csproj.CopyComplete
 C:\Users\Tristan\source\repos\RestrauntRaterT2\RestrauntRaterT2\obj\Debug\RestrauntRaterT2.dll
